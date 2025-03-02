@@ -1,0 +1,132 @@
+/* Layout principal */
+.massage-types {
+    padding: 4rem 0;
+}
+
+.massage-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Style des cartes principales */
+.massage-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 2.5rem;
+}
+
+/* En-tête de la carte */
+.massage-header {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 1rem;
+}
+
+.massage-header h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.duration {
+    color: #666;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+/* Texte d'introduction */
+.massage-intro {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 2.5rem;
+    text-align: justify;
+    padding: 0 1rem;
+}
+
+/* Sections de contenu */
+.massage-section {
+    margin-bottom: 2.5rem; /* Espacement entre les sections */
+}
+
+.massage-section h4 {
+    color: #2c3e50;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+}
+
+/* Cartes individuelles pour chaque élément */
+.massage-section-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+/* Titre de la carte */
+.massage-section-title {
+    color: #2c3e50;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+/* Contenu de la carte */
+.massage-section-content {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Section d'appel à l'action */
+.guide-cta {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.guide-cta h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+/* Boutons */
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn.primary {
+    background-color: #3498db;
+    color: white;
+}
+
+.btn.secondary {
+    background-color: white;
+    color: #3498db;
+    border: 2px solid #3498db;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
